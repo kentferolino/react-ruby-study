@@ -1,7 +1,5 @@
-import React, { useEffect, useState } from "react";
-import { useDispatch } from "react-redux";
-import { useAppSelector, useAppDispatch } from "../../app/hooks";
-import type { AppDispatch } from "../../app/store";
+import React, { useState } from "react";
+import { useAppDispatch } from "../../app/hooks";
 import { createPostAsync } from "./postSlice";
 
 function PostForm() {
